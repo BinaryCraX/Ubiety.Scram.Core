@@ -166,7 +166,7 @@ namespace Ubiety.Scram.Core.Attributes
         }
 
         // language=regex
-        [GeneratedRegex(@"(?:(?<gs2>^[ny]?(?:p=.+?)?),)?(?:,?(?<attr>.=[a-zA-Z0-9\+\=]+?),?)+$", RegexOptions.CultureInvariant)]
+        [GeneratedRegex(@"(?:(?<gs2>^[ny]?(?:p=.+?)?),)?(?:,?(?<attr>.=[a-zA-Z0-9+=/]+?),?)+$", RegexOptions.CultureInvariant)]
         private static partial Regex ScramRegex();
     }
 }
